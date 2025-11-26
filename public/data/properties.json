@@ -18,12 +18,13 @@
     "bathrooms": 1,
     "area": 65,
     "unit": "m²",
-    "images": ["images/p1_1.jpg", "images/p1_2.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-1.webp"],
     "features": ["Air Conditioning", "Balcony", "Parking"],
     "agent_id": 301,
     "posted_date": "2025-11-10",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 2,
@@ -44,12 +45,13 @@
     "bathrooms": 1,
     "area": 45,
     "unit": "m²",
-    "images": ["images/p2_1.jpg", "images/p2_2.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-2.webp"],
     "features": ["Gym", "Elevator", "Security"],
     "agent_id": 302,
     "posted_date": "2025-11-11",
-    "available": true,
-    "is_featured_property": true
+    "is_available": "yes",
+    "is_featured": "yes",
+    "is_latest": "yes"
   },
   {
     "id": 3,
@@ -70,12 +72,13 @@
     "bathrooms": 2,
     "area": 78,
     "unit": "m²",
-    "images": ["images/p3_1.jpg", "images/p3_2.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-1.jpg"],
     "features": ["Swimming Pool", "Gym", "Parking"],
     "agent_id": 303,
     "posted_date": "2025-11-12",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 4,
@@ -96,12 +99,13 @@
     "bathrooms": 6,
     "area": 320,
     "unit": "m²",
-    "images": ["images/p4_1.jpg", "images/p4_2.jpg"],
+    "images": ["/public/assets/images/properties/villas/villa-1.webp"],
     "features": ["Garden", "Parking", "Security"],
     "agent_id": 304,
     "posted_date": "2025-10-28",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 5,
@@ -122,12 +126,13 @@
     "bathrooms": 3,
     "area": 120,
     "unit": "m²",
-    "images": ["images/p5_1.jpg", "images/p5_2.jpg"],
+    "images": ["/public/assets/images/properties/houses/house-1.webp"],
     "features": ["Parking", "Pet Friendly"],
     "agent_id": 305,
     "posted_date": "2025-11-05",
-    "available": true,
-    "is_featured_properties": true
+    "is_available": "yes",
+    "is_featured": "yes",
+    "is_latest": "no"
   },
   {
     "id": 6,
@@ -148,12 +153,13 @@
     "bathrooms": 1,
     "area": 40,
     "unit": "m²",
-    "images": ["images/p6_1.jpg", "images/p6_2.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-3.jpg"],
     "features": ["Parking"],
     "agent_id": 306,
     "posted_date": "2025-10-30",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 7,
@@ -174,12 +180,15 @@
     "bathrooms": 2,
     "area": 150,
     "unit": "m²",
-    "images": ["images/p7_1.jpg"],
+    "images": [
+      "/public/assets/images/properties/commercials/commercial-1.webp"
+    ],
     "features": ["Elevator", "Parking"],
     "agent_id": 307,
     "posted_date": "2025-11-15",
-    "available": true,
-    "is_featured_properties": true
+    "is_available": "yes",
+    "is_featured": "yes",
+    "is_latest": "yes"
   },
   {
     "id": 8,
@@ -200,12 +209,13 @@
     "bathrooms": 5,
     "area": 200,
     "unit": "m²",
-    "images": ["images/p8_1.jpg", "images/p8_2.jpg"],
+    "images": ["/public/assets/images/properties/shop_houses/shop_house-1.jpg"],
     "features": ["Parking", "Business Area"],
     "agent_id": 308,
     "posted_date": "2025-11-13",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 9,
@@ -223,12 +233,13 @@
     "bathrooms": 1,
     "area": 55,
     "unit": "m²",
-    "images": ["images/p9_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-2.webp"],
     "features": ["Swimming Pool", "Gym"],
     "agent_id": 309,
     "posted_date": "2025-09-10",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 10,
@@ -249,12 +260,13 @@
     "bathrooms": 1,
     "area": 50,
     "unit": "m²",
-    "images": ["images/p10_1.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-1.webp"],
     "features": ["Cleaning Service", "Security"],
     "agent_id": 310,
     "posted_date": "2025-11-07",
-    "available": true,
-    "is_featured_properties": true
+    "is_available": "yes",
+    "is_featured": "yes",
+    "is_latest": "no"
   },
   {
     "id": 11,
@@ -272,12 +284,13 @@
     "bathrooms": 0,
     "area": 500,
     "unit": "m²",
-    "images": ["images/p11_1.jpg"],
+    "images": ["/public/assets/images/properties/lands/land-1.jpg"],
     "features": ["Main Road Access"],
     "agent_id": 311,
     "posted_date": "2025-10-20",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 12,
@@ -298,12 +311,13 @@
     "bathrooms": 1,
     "area": 48,
     "unit": "m²",
-    "images": ["images/p12_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-3.jpg"],
     "features": ["Gym", "Balcony"],
     "agent_id": 312,
     "posted_date": "2025-11-14",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "yes"
   },
   {
     "id": 13,
@@ -324,12 +338,13 @@
     "bathrooms": 5,
     "area": 280,
     "unit": "m²",
-    "images": ["images/p13_1.jpg"],
+    "images": ["/public/assets/images/properties/villas/villa-2.webp"],
     "features": ["Garden", "Parking", "Security"],
     "agent_id": 313,
     "posted_date": "2025-11-12",
-    "available": true,
-    "is_featured_properties": true
+    "is_available": "yes",
+    "is_featured": "yes",
+    "is_latest": "no"
   },
   {
     "id": 14,
@@ -347,12 +362,13 @@
     "bathrooms": 2,
     "area": 110,
     "unit": "m²",
-    "images": ["images/p14_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-1.jpg"],
     "features": ["Rooftop Access", "Pool", "Gym"],
     "agent_id": 314,
     "posted_date": "2025-11-01",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 15,
@@ -373,12 +389,13 @@
     "bathrooms": 1,
     "area": 52,
     "unit": "m²",
-    "images": ["images/p15_1.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-2.webp"],
     "features": ["Balcony", "Elevator"],
     "agent_id": 315,
     "posted_date": "2025-11-09",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 16,
@@ -399,12 +416,13 @@
     "bathrooms": 6,
     "area": 280,
     "unit": "m²",
-    "images": ["images/p16_1.jpg"],
+    "images": ["/public/assets/images/properties/houses/house-2.webp"],
     "features": ["Parking", "Garden"],
     "agent_id": 316,
     "posted_date": "2025-11-04",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 17,
@@ -425,12 +443,13 @@
     "bathrooms": 1,
     "area": 35,
     "unit": "m²",
-    "images": ["images/p17_1.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-3.jpg"],
     "features": ["Security"],
     "agent_id": 317,
     "posted_date": "2025-11-08",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 18,
@@ -451,12 +470,13 @@
     "bathrooms": 2,
     "area": 90,
     "unit": "m²",
-    "images": ["images/p18_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-2.webp"],
     "features": ["Pool", "Gym", "River View"],
     "agent_id": 318,
     "posted_date": "2025-10-22",
-    "available": true,
-    "is_featured_properties": true
+    "is_available": "yes",
+    "is_featured": "yes",
+    "is_latest": "no"
   },
   {
     "id": 19,
@@ -474,12 +494,13 @@
     "bathrooms": 1,
     "area": 60,
     "unit": "m²",
-    "images": ["images/p19_1.jpg"],
+    "images": ["/public/assets/images/properties/commercials/commercial-2.jpg"],
     "features": ["Main Road Access"],
     "agent_id": 319,
     "posted_date": "2025-11-10",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 20,
@@ -500,12 +521,13 @@
     "bathrooms": 3,
     "area": 160,
     "unit": "m²",
-    "images": ["images/p20_1.jpg"],
+    "images": ["/public/assets/images/properties/houses/house-3.jpg"],
     "features": ["Balcony", "Parking"],
     "agent_id": 320,
     "posted_date": "2025-10-30",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 21,
@@ -523,12 +545,13 @@
     "bathrooms": 0,
     "area": 450,
     "unit": "m²",
-    "images": ["images/p21_1.jpg"],
+    "images": ["/public/assets/images/properties/lands/land-2.webp"],
     "features": ["Quiet Area"],
     "agent_id": 321,
     "posted_date": "2025-10-29",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 22,
@@ -546,12 +569,13 @@
     "bathrooms": 5,
     "area": 350,
     "unit": "m²",
-    "images": ["images/p22_1.jpg"],
+    "images": ["/public/assets/images/properties/villas/villa-3.webp"],
     "features": ["Pool", "Garden", "Parking"],
     "agent_id": 322,
     "posted_date": "2025-11-03",
-    "available": true,
-    "is_featured_properties": true
+    "is_available": "yes",
+    "is_featured": "yes",
+    "is_latest": "no"
   },
   {
     "id": 23,
@@ -569,12 +593,13 @@
     "bathrooms": 1,
     "area": 48,
     "unit": "m²",
-    "images": ["images/p23_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-3.jpg"],
     "features": ["Parking", "Gym"],
     "agent_id": 323,
     "posted_date": "2025-11-11",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "yes"
   },
   {
     "id": 24,
@@ -595,12 +620,13 @@
     "bathrooms": 3,
     "area": 135,
     "unit": "m²",
-    "images": ["images/p24_1.jpg"],
+    "images": ["/public/assets/images/properties/houses/house-1.webp"],
     "features": ["Parking"],
     "agent_id": 324,
     "posted_date": "2025-11-07",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 25,
@@ -621,12 +647,13 @@
     "bathrooms": 1,
     "area": 38,
     "unit": "m²",
-    "images": ["images/p25_1.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-1.webp"],
     "features": ["Parking"],
     "agent_id": 325,
     "posted_date": "2025-11-02",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 26,
@@ -644,12 +671,13 @@
     "bathrooms": 2,
     "area": 95,
     "unit": "m²",
-    "images": ["images/p26_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-1.jpg"],
     "features": ["Gym", "Pool", "Security"],
     "agent_id": 326,
     "posted_date": "2025-11-09",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 27,
@@ -670,12 +698,13 @@
     "bathrooms": 5,
     "area": 290,
     "unit": "m²",
-    "images": ["images/p27_1.jpg"],
+    "images": ["/public/assets/images/properties/villas/villa-1.webp"],
     "features": ["Parking", "Garden"],
     "agent_id": 327,
     "posted_date": "2025-10-28",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 28,
@@ -696,12 +725,15 @@
     "bathrooms": 5,
     "area": 185,
     "unit": "m²",
-    "images": ["images/p28_1.jpg"],
+    "images": [
+      "/public/assets/images/properties/shop_houses/shop_house-2.webp"
+    ],
     "features": ["Parking", "Business Area"],
     "agent_id": 328,
     "posted_date": "2025-11-06",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 29,
@@ -719,12 +751,13 @@
     "bathrooms": 2,
     "area": 80,
     "unit": "m²",
-    "images": ["images/p29_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-2.webp"],
     "features": ["River View", "Gym"],
     "agent_id": 329,
     "posted_date": "2025-11-13",
-    "available": true,
-    "is_featured_properties": true
+    "is_available": "yes",
+    "is_featured": "yes",
+    "is_latest": "yes"
   },
   {
     "id": 30,
@@ -745,12 +778,13 @@
     "bathrooms": 1,
     "area": 48,
     "unit": "m²",
-    "images": ["images/p30_1.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-2.webp"],
     "features": ["Balcony"],
     "agent_id": 330,
     "posted_date": "2025-11-11",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 31,
@@ -771,12 +805,13 @@
     "bathrooms": 4,
     "area": 160,
     "unit": "m²",
-    "images": ["images/p31_1.jpg"],
+    "images": ["/public/assets/images/properties/houses/house-2.webp"],
     "features": ["Parking"],
     "agent_id": 301,
     "posted_date": "2025-11-12",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 32,
@@ -797,12 +832,13 @@
     "bathrooms": 1,
     "area": 35,
     "unit": "m²",
-    "images": ["images/p32_1.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-3.jpg"],
     "features": ["Parking"],
     "agent_id": 302,
     "posted_date": "2025-11-11",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 33,
@@ -823,12 +859,13 @@
     "bathrooms": 1,
     "area": 50,
     "unit": "m²",
-    "images": ["images/p33_1.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-1.webp"],
     "features": ["Cleaning", "Parking"],
     "agent_id": 303,
     "posted_date": "2025-11-09",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 34,
@@ -846,12 +883,13 @@
     "bathrooms": 5,
     "area": 220,
     "unit": "m²",
-    "images": ["images/p34_1.jpg"],
+    "images": ["/public/assets/images/properties/villas/villa-2.webp"],
     "features": ["Garden", "Parking"],
     "agent_id": 304,
     "posted_date": "2025-11-08",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 35,
@@ -869,12 +907,13 @@
     "bathrooms": 1,
     "area": 55,
     "unit": "m²",
-    "images": ["images/p35_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-3.jpg"],
     "features": ["Gym", "Pool"],
     "agent_id": 305,
     "posted_date": "2025-11-12",
-    "available": true,
-    "is_featured_properties": true
+    "is_available": "yes",
+    "is_featured": "yes",
+    "is_latest": "no"
   },
   {
     "id": 36,
@@ -895,12 +934,13 @@
     "bathrooms": 1,
     "area": 75,
     "unit": "m²",
-    "images": ["images/p36_1.jpg"],
+    "images": ["/public/assets/images/properties/houses/house-3.jpg"],
     "features": ["Parking"],
     "agent_id": 306,
     "posted_date": "2025-10-21",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 37,
@@ -921,12 +961,13 @@
     "bathrooms": 1,
     "area": 65,
     "unit": "m²",
-    "images": ["images/p37_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-1.jpg"],
     "features": ["Gym", "Pool", "Parking"],
     "agent_id": 307,
     "posted_date": "2025-11-13",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "yes"
   },
   {
     "id": 38,
@@ -947,12 +988,13 @@
     "bathrooms": 1,
     "area": 42,
     "unit": "m²",
-    "images": ["images/p38_1.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-2.webp"],
     "features": ["Parking"],
     "agent_id": 308,
     "posted_date": "2025-11-05",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 39,
@@ -973,12 +1015,13 @@
     "bathrooms": 3,
     "area": 130,
     "unit": "m²",
-    "images": ["images/p39_1.jpg"],
+    "images": ["/public/assets/images/properties/houses/house-1.webp"],
     "features": ["Parking", "Garden"],
     "agent_id": 309,
     "posted_date": "2025-11-10",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 40,
@@ -999,12 +1042,13 @@
     "bathrooms": 1,
     "area": 60,
     "unit": "m²",
-    "images": ["images/p40_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-2.webp"],
     "features": ["Elevator", "Security"],
     "agent_id": 310,
     "posted_date": "2025-11-14",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "yes"
   },
   {
     "id": 41,
@@ -1022,12 +1066,13 @@
     "bathrooms": 0,
     "area": 600,
     "unit": "m²",
-    "images": ["images/p41_1.jpg"],
+    "images": ["/public/assets/images/properties/lands/land-3.webp"],
     "features": ["Riverfront"],
     "agent_id": 311,
     "posted_date": "2025-10-20",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 42,
@@ -1045,12 +1090,13 @@
     "bathrooms": 1,
     "area": 55,
     "unit": "m²",
-    "images": ["images/p42_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-3.jpg"],
     "features": ["Gym", "Security"],
     "agent_id": 312,
     "posted_date": "2025-11-13",
-    "available": true,
-    "is_featured_properties": true
+    "is_available": "yes",
+    "is_featured": "yes",
+    "is_latest": "yes"
   },
   {
     "id": 43,
@@ -1068,12 +1114,15 @@
     "bathrooms": 4,
     "area": 210,
     "unit": "m²",
-    "images": ["images/p43_1.jpg"],
+    "images": [
+      "/public/assets/images/properties/shop_houses/shop_house-3.webp"
+    ],
     "features": ["Business Area"],
     "agent_id": 313,
     "posted_date": "2025-10-30",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 44,
@@ -1094,12 +1143,13 @@
     "bathrooms": 1,
     "area": 50,
     "unit": "m²",
-    "images": ["images/p44_1.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-3.jpg"],
     "features": ["Balcony"],
     "agent_id": 314,
     "posted_date": "2025-11-10",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 45,
@@ -1120,12 +1170,13 @@
     "bathrooms": 3,
     "area": 125,
     "unit": "m²",
-    "images": ["images/p45_1.jpg"],
+    "images": ["/public/assets/images/properties/houses/house-2.webp"],
     "features": ["Parking"],
     "agent_id": 315,
     "posted_date": "2025-11-09",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 46,
@@ -1143,18 +1194,19 @@
     "bathrooms": 1,
     "area": 55,
     "unit": "m²",
-    "images": ["images/p46_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-1.jpg"],
     "features": ["Gym", "Pool"],
     "agent_id": 316,
     "posted_date": "2025-11-12",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 47,
     "title": {
       "en": "Luxury Villa in Borey Orkide",
-      "km": "វિલ્લាធូល៌នៅបុរីអ័រគីដេ"
+      "km": "វីឡាធូល៌នៅបុរីអ័រគីដេ"
     },
     "type": "villa",
     "purpose": "sale",
@@ -1169,12 +1221,13 @@
     "bathrooms": 7,
     "area": 380,
     "unit": "m²",
-    "images": ["images/p47_1.jpg"],
+    "images": ["/public/assets/images/properties/villas/villa-3.webp"],
     "features": ["Garden", "Parking"],
     "agent_id": 317,
     "posted_date": "2025-10-22",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 48,
@@ -1192,12 +1245,13 @@
     "bathrooms": 1,
     "area": 60,
     "unit": "m²",
-    "images": ["images/p48_1.jpg"],
+    "images": ["/public/assets/images/properties/condos/condo-2.webp"],
     "features": ["Gym", "Security"],
     "agent_id": 318,
     "posted_date": "2025-11-11",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 49,
@@ -1218,12 +1272,15 @@
     "bathrooms": 1,
     "area": 85,
     "unit": "m²",
-    "images": ["images/p49_1.jpg"],
+    "images": [
+      "/public/assets/images/properties/commercials/commercial-3.webp"
+    ],
     "features": ["Main Road Access"],
     "agent_id": 319,
     "posted_date": "2025-10-29",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "no"
   },
   {
     "id": 50,
@@ -1244,11 +1301,12 @@
     "bathrooms": 1,
     "area": 45,
     "unit": "m²",
-    "images": ["images/p50_1.jpg"],
+    "images": ["/public/assets/images/properties/apartments/apartment-1.webp"],
     "features": ["Parking"],
     "agent_id": 320,
     "posted_date": "2025-11-13",
-    "available": true,
-    "is_featured_properties": false
+    "is_available": "yes",
+    "is_featured": "no",
+    "is_latest": "yes"
   }
 ]
