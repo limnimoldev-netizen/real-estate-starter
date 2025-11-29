@@ -8,7 +8,7 @@
   width: max-content;
   gap: 1rem;
   will-change: transform;
-  animation: marquee var(--marquee-duration, 5s) linear infinite;
+  animation: marquee var(--marquee-duration) linear infinite;
 }
 
 .scroller__group {

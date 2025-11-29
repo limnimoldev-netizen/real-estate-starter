@@ -1,3 +1,4 @@
+
 .card-items {
   height: 420px;
   overflow: hidden;
@@ -14,6 +15,7 @@
 .card-items_media {
   width: 100%;
   height: 55%;
+  border-radius: 12px;
   object-fit: cover;
   opacity: 0.8;
   transition: opacity 0.4s ease, transform 0.4s ease;
@@ -22,6 +24,7 @@
 .card-items_media img {
   width: 100%;
   height: 100%;
+  border-radius: 12px;
   object-fit: cover;
 }
 
@@ -104,4 +107,59 @@
 
 .card-top:hover {
   transform: translateY(-4px);
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .card-items {
+    height: auto;
+    padding-bottom: 12px;
+  }
+
+  .card-items_media {
+    height: 200px;
+  }
+
+  .card-items__body {
+    height: auto;
+    margin-top: 8px;
+  }
+
+  .card-items__body small {
+    font-size: 14px;
+  }
+
+  .top-cols-item h2 {
+    font-size: 1.2rem;
+  }
+
+  .top-cols-item small {
+    font-size: 14px;
+  }
+
+  .title-cols {
+    font-size: 1.5rem;
+  }
+
+  .txt-cols {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  .card-btn a {
+    max-width: 100%;
+    font-size: 14px;
+    padding: 8px 0;
+  }
+
+  /* Optional: reduce hover jump */
+  .card-top:hover {
+    transform: translateY(-2px);
+  }
 }
