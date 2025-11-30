@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>KH Realty — Find Homes in Cambodia</title>
+    <title>Home | Apple Real Estate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Affordable rentals and homes in Cambodia." />
     <link rel="stylesheet" href="/styles/main.css">
@@ -27,12 +27,12 @@
     <link href="https://unpkg.com/slim-select@latest/dist/slimselect.css" rel="stylesheet">
 </head>
 
-<body class="dark-mode">
+<body >
     <!-- ===== NAV ===== -->
     <header class="navbar-content">
         <nav class="navbar">
             <div class="logo">
-                <a href=""><img src="public/assets/images/logo.png" alt=""></a>
+                <a href="#heroSection"><img src="public/assets/images/logo.png" alt=""></a>
             </div>
 
             <div class="nav-links">
@@ -42,32 +42,34 @@
                         </button>
                     </li>
                     
-                    <li><a class="active" href="">Home</a></li>
-                    <li><a href="">Rent</a></li>
-                    <li><a href="">Buy</a></li>
-                    <li><a href="">Agents</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a class="active" href="#heroSection">Home</a></li>
+                    <li><a href="/pages/rent/index.html">Rent</a></li>
+                    <li><a href="/pages/buy/index.html">Buy</a></li>
+                    <li><a href="/pages/agents/index.html">Agents</a></li>
+                    <li><a href="/pages/about/index.html">About</a></li>
+                    <li><a href="/pages/contact/index.html">Contact</a></li>
                 </ul>
 
                 <ul>
-                    <li><a class="hideOnMobile active" href="">Home</a></li>
-                    <li><a class="hideOnMobile" href="">Rent</a></li>
-                    <li><a class="hideOnMobile" href="">Buy</a></li>
-                    <li><a class="hideOnMobile" href="">Agents</a></li>
-                    <li><a class="hideOnMobile" href="">About</a></li>
-                    <li><a class="hideOnMobile" href="">Contact</a></li>
+                    <li><a class="hideOnMobile active" href="#heroSection">Home</a></li>
+                    <li><a class="hideOnMobile" href="/pages/rent/index.html">Rent</a></li>
+                    <li><a class="hideOnMobile" href="/pages/buy/index.html">Buy</a></li>
+                    <li><a class="hideOnMobile" href="/pages/agents/index.html">Agents</a></li>
+                    <li><a class="hideOnMobile" href="/pages/about/index.html">About</a></li>
+                    <li><a class="hideOnMobile" href="/pages/contact/index.html">Contact</a></li>
                 </ul>
             </div>
 
              <div class="nav-actions">
-                <div class="nav-btn">
+                <div class="nav-btn" onclick="toggleTheme(); return false;">
                     <a href="#"><i class="fas fa-moon"></i> Dark</a>
                 </div>
 
                 <a class="menu-btn" onclick="showSidemenu()" href="javascript:void(0)">
                     <i class="fas fa-bars"></i>
                 </a>
+
+                <script src=""></script>
             </div>
 
             <script>
@@ -88,7 +90,7 @@
     </header>
 
     <!-- ===== HERO: Search & Filter ===== -->
-    <header class="hero">
+    <header class="hero" id="heroSection">
         <img src="/public/assets/images/hero-img.jpeg" alt="">
 
         <div class="container">
@@ -118,7 +120,7 @@
     </header>
 
     <!-- ===== Featured Properties (Horizontal) ===== -->
-    <section class="section container">
+    <section class="section container" id="featureSection">
         <div class="section__head">
             <h2 class="section__title">Featured Properties</h2>
             <p>Each listing provides unique features, quality, and <br>
@@ -229,7 +231,7 @@
         </div>
 
         <div class="section__head">
-            <a class="section__link" href="#">Show More</a>
+            <a class="section__link" href="pages/listing/index.html">Show More</a>
         </div>
         <script src="scripts/card-items.js"></script>
     </section>
@@ -250,7 +252,7 @@
         </div> 
 
         <div class="section__head">
-            <a class="section__link" href="#">Show More</a>
+            <a class="section__link" href="/pages/agents/index.html">Show More</a>
         </div>
     </section>
 
@@ -316,7 +318,7 @@
 
                 <div class="subscription-inputs">
                     <input type="email" placeholder="Enter your email" class="fill-in">
-                    <button class="submit">Subscribe</button>
+                    <button type="submit" class="submit">Subscribe</button>
                 </div>
             </div>
         </div>

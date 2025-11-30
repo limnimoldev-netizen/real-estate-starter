@@ -7,6 +7,12 @@ fetch("../public/data/properties.json")
   })
   .catch((error) => console.error("Error fetching JSON:", error));
 
+// Dark mode toggle
+function toggleTheme() {
+  document.body.classList.toggle("dark-mode");
+}
+
+
 
 // navbar scrolled
 window.addEventListener("scroll", function () {

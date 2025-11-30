@@ -8,11 +8,13 @@
 
   --text: #1d1716;
 
+  --text-option: #ffffff;
+
   --text-secondary: #FAB21E;
 
-  --text-highlight: #1d1716;
+  --text-highlight: #ffffff;
 
-  --icon: #ffffff;
+  --card: #ffffff;
 
   --muted: #817b6edb;
 
@@ -51,21 +53,17 @@
 
 
 .dark-mode {
-  --bg: #1A1414;              /* Deep warm black */
-  --nav-foot: #231B1B;        /* Slightly lighter for header/footer */
-  
-  --text: #F5EAEA;            /* Soft light pinkish white */
-  --text-highlight: #1d1716;
-  --text-secondary: #FFC75E;  /* Warm highlight (keeps your style) */
-
-  --icon: #FFFFFF;            /* Pure white icons */
-  --muted: #A88F8F;           /* Muted text with warm undertone */
-
-  --acent: #FFDEDE;           /* Light accent for buttons/text */
-  --acent-secondary: #2D2424; /* Dark card/button background */
-  --acent-hover: #FAB21E;     /* Bright hover highlight (same as yours) */
-
-  --border: #3A2E2E;          /* Very subtle border */
+  --bg: #1A1414;
+  --nav-foot: #231B1B;
+  --text: #F5EAEA;
+  --text-highlight: #F5EAEA;
+  --text-secondary: #FFC75E;
+  --card: #262323;
+  --muted: #A88F8F;
+  --acent: #322c2c;
+  --acent-secondary: #2D2424;
+  --acent-hover: #FAB21E;
+  --border: #3A2E2E;
 }
 
 
@@ -74,6 +72,10 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -111,7 +113,6 @@ img {
 .hero img {
   width: 100%;
   height: 100%;
-  border-radius: 12px;
   object-fit: cover;
   filter: brightness(80%);
 }
@@ -127,14 +128,12 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
   padding: 18px;
 }
 
 .hero__title {
   font-size: var(--head);
-  color: var(--icon);
+  color: var(--text-option);
   margin: 0 0 8px;
   text-align: center;
   line-height: 1.2;
@@ -142,7 +141,7 @@ img {
 
 .hero__subtitle {
   font-size: var(--body);
-  color: var(--icon);
+  color: var(--text-option);
   text-align: center;
   margin: 0 0 14px;
 }
@@ -306,7 +305,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 14px;
-  background-color: #fff;
+  background-color: var(--card);
   border-radius: 14px;
   box-shadow: var(--shadow);
   margin-top: 18px;

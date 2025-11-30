@@ -605,7 +605,7 @@
   {
     "id": 24,
     "title": {
-      "en": "Townhouse near AEON Sen Sok",
+      "en": "Townhouse AEON Sen Sok",
       "km": "ផ្ទះល្វែងនៅជិត AEON Sen Sok"
     },
     "type": "house",
@@ -683,7 +683,7 @@
   {
     "id": 27,
     "title": {
-      "en": "Villa in Borey Chip Mong",
+      "en": "Villa Chip Mong",
       "km": "វីឡាក្នុងបុរី Chip Mong"
     },
     "type": "villa",
@@ -710,7 +710,7 @@
   {
     "id": 28,
     "title": {
-      "en": "Shophouse near Phnom Penh Thmey",
+      "en": "Shophouse PP Thmey",
       "km": "ផ្ទះអាជីវកម្មនៅជិតភ្នំពេញថ្មី"
     },
     "type": "shophouse",
@@ -738,7 +738,7 @@
   },
   {
     "id": 29,
-    "title": { "en": "Condo with River View", "km": "ខុនដូទេសភាពទន្លេ" },
+    "title": { "en": "Condo River View", "km": "ខុនដូទេសភាពទន្លេ" },
     "type": "condo",
     "purpose": "rent",
     "price": 750,
@@ -763,7 +763,7 @@
   {
     "id": 30,
     "title": {
-      "en": "Apartment near Olympic Stadium",
+      "en": "Apartment Olympic Stadium",
       "km": "អាផាតមិននៅជិតរោងកីឡាអូឡាំពិក"
     },
     "type": "apartment",
@@ -790,7 +790,7 @@
   {
     "id": 31,
     "title": {
-      "en": "Townhouse for Rent in Toul Kork",
+      "en": "Townhouse in TK",
       "km": "ផ្ទះល្វែងឲ្យជួលនៅទួលគោក"
     },
     "type": "house",
@@ -817,7 +817,7 @@
   {
     "id": 32,
     "title": {
-      "en": "Affordable Studio in Chbar Ampov",
+      "en": "Affordable Studio",
       "km": "អាផាតមិនតម្លៃសមរម្យនៅច្បារអំពៅ"
     },
     "type": "apartment",
@@ -844,7 +844,7 @@
   {
     "id": 33,
     "title": {
-      "en": "Serviced Apartment in BKK2",
+      "en": "Serviced Apartment BKK2",
       "km": "អាផាតមិនសេវាកម្មនៅ BKK2"
     },
     "type": "apartment",
@@ -870,7 +870,7 @@
   },
   {
     "id": 34,
-    "title": { "en": "Villa for Sale in Siem Reap", "km": "វីឡាលក់នៅសៀមរាប" },
+    "title": { "en": "Villa for Sale", "km": "វីឡាលក់នៅសៀមរាប" },
     "type": "villa",
     "purpose": "sale",
     "price": 250000,
@@ -894,7 +894,7 @@
   },
   {
     "id": 35,
-    "title": { "en": "Condo in Olympia City", "km": "ខុនដូក្នុង Olympia City" },
+    "title": { "en": "Condo in Olympia", "km": "ខុនដូក្នុង Olympia City" },
     "type": "condo",
     "purpose": "rent",
     "price": 550,
@@ -919,7 +919,7 @@
   {
     "id": 36,
     "title": {
-      "en": "Affordable House in Kandal",
+      "en": "House in Kandal",
       "km": "ផ្ទះតម្លៃសមរម្យនៅកណ្តាល"
     },
     "type": "house",
@@ -946,7 +946,7 @@
   {
     "id": 37,
     "title": {
-      "en": "Luxury Condo in The Bridge",
+      "en": "Luxury Condo",
       "km": "ខុនដូធូល៌នៅ The Bridge"
     },
     "type": "condo",
@@ -973,7 +973,7 @@
   {
     "id": 38,
     "title": {
-      "en": "Apartment near Sovanna Mall",
+      "en": "Apartment Sovanna",
       "km": "អាផាតមិននៅជិត Sovanna Mall"
     },
     "type": "apartment",
@@ -1000,7 +1000,7 @@
   {
     "id": 39,
     "title": {
-      "en": "House near Phnom Penh International Airport",
+      "en": "House near Airport",
       "km": "ផ្ទះនៅជិតអាកាសយានដ្ឋានភ្នំពេញ"
     },
     "type": "house",
@@ -1027,7 +1027,7 @@
   {
     "id": 40,
     "title": {
-      "en": "Condo near Central Market",
+      "en": "Condo Central Market",
       "km": "ខុនដូជិតផ្សារ Sentral"
     },
     "type": "condo",
@@ -1053,7 +1053,7 @@
   },
   {
     "id": 41,
-    "title": { "en": "Land in Kampot Riverside", "km": "ដីនៅជិតទន្លេកំពត" },
+    "title": { "en": "Land in Kampot", "km": "ដីនៅជិតទន្លេកំពត" },
     "type": "land",
     "purpose": "sale",
     "price": 90000,
@@ -1077,7 +1077,7 @@
   },
   {
     "id": 42,
-    "title": { "en": "Modern Condo in BKK3", "km": "ខុនដូទំនើបនៅ BKK3" },
+    "title": { "en": "Modern Condo BKK3", "km": "ខុនដូទំនើបនៅ BKK3" },
     "type": "condo",
     "purpose": "rent",
     "price": 500,
@@ -1101,7 +1101,7 @@
   },
   {
     "id": 43,
-    "title": { "en": "Shophouse in Toul Kork", "km": "ផ្ទះអាជីវកម្មនៅទួលគោក" },
+    "title": { "en": "Shophouse in TK", "km": "ផ្ទះអាជីវកម្មនៅទួលគោក" },
     "type": "shophouse",
     "purpose": "sale",
     "price": 290000,
@@ -1128,7 +1128,7 @@
   {
     "id": 44,
     "title": {
-      "en": "Apartment near Royal Palace",
+      "en": "Apartment Royal Palace",
       "km": "អាផាតមិននៅជិតព្រះបរមរាជវាំង"
     },
     "type": "apartment",
@@ -1155,7 +1155,7 @@
   {
     "id": 45,
     "title": {
-      "en": "Townhouse near Aeon Mall 3",
+      "en": "Townhouse Aeon 3",
       "km": "ផ្ទះល្វែងនៅជិត Aeon Mall 3"
     },
     "type": "house",
@@ -1181,7 +1181,7 @@
   },
   {
     "id": 46,
-    "title": { "en": "Condo near Aeon 1", "km": "ខុនដូជិត Aeon 1" },
+    "title": { "en": "Condo Aeon 1", "km": "ខុនដូជិត Aeon 1" },
     "type": "condo",
     "purpose": "sale",
     "price": 120000,
@@ -1206,7 +1206,7 @@
   {
     "id": 47,
     "title": {
-      "en": "Luxury Villa in Borey Orkide",
+      "en": "Luxury Villa Orkide",
       "km": "វីឡាធូល៌នៅបុរីអ័រគីដេ"
     },
     "type": "villa",
@@ -1232,7 +1232,7 @@
   },
   {
     "id": 48,
-    "title": { "en": "Condo near Eden Garden", "km": "ខុនដូជិត Eden Garden" },
+    "title": { "en": "Condo Eden", "km": "ខុនដូជិត Eden Garden" },
     "type": "condo",
     "purpose": "rent",
     "price": 580,
@@ -1257,7 +1257,7 @@
   {
     "id": 49,
     "title": {
-      "en": "Commercial Space near Orussey Market",
+      "en": "Commercial Space",
       "km": "កន្លែងអាជីវកម្មនៅជិតផ្សារអូររក្សី"
     },
     "type": "commercial",
@@ -1286,7 +1286,7 @@
   {
     "id": 50,
     "title": {
-      "en": "Modern Apartment near Royal University of Phnom Penh",
+      "en": "Modern Apartment ",
       "km": "អាផាតមិនទំនើបនៅជិតសាកលវិទ្យាល័យភ្នំពេញ"
     },
     "type": "apartment",

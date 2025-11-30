@@ -1,16 +1,17 @@
 // items card
-const sectionItemsElement = document.getElementById("itemsCard")
+const sectionSaleElement = document.getElementById("saleColsCard")
 
-fetch("../public/data/properties.json")
+fetch("../../public/data/properties.json")
  .then((response) => response.json())
  .then((data) => {
     if (data.length > 0) {
-        for (let i = 0; i < 3; i++) {
+        for (let i = 12; i < 24 ; i++) {
+            console.log(data);
             
-            sectionItemsElement.innerHTML += `
+            sectionSaleElement.innerHTML += `
             <article class="card-items" href="">
                 <div class="card-items_media">
-                <a href=""><img src="${data[i].images}" alt=""></a>
+                    <a href=""><img src="${data[i].images}" alt=""></a>
                 </div>
 
                 <div class="card-items__body">
