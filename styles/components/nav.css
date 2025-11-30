@@ -2,11 +2,10 @@
   width: 100%;
   height: 60px;
   background-color: transparent;
-  display: flex;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 420;
   transition: all .2s ease;
 }
 
@@ -29,15 +28,17 @@
 .navbar {
   max-width: var(--maxw);
   margin: auto;
+  margin-top: 4px;
   overflow: hidden;
   background-color: transparent;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
 .logo {
-  width: 8%;
+  width: 100px;
   object-fit: cover;
 }
 
@@ -51,16 +52,16 @@
   gap: 35px;
 }
 
-.nav-links ul li a {
+.nav-links ul li a:not(.sidebar a) {
   font-size: 17px;
   color: var(--icon);
-  transition: all .1s ease;
+  transition: all .2s ease;
 }
 
 .nav-links ul li a.active {
   color: var(--acent-hover);
   font-weight: 500;
-  border-bottom: 3px solid var(--acent-hover);
+  border-bottom: 2px solid var(--acent-hover);
 }
 
 .nav-links ul li a:hover {
@@ -72,6 +73,12 @@
   border-bottom: none;
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .nav-btn {
   display: flex;
   align-items: center;
@@ -81,9 +88,12 @@
 
 .nav-btn a{
   font-size: 16px;
-  padding: 8px 14px;
+  padding: clamp(6px, 0.5vw, 8px) clamp(10px, 1vw, 14px);
   border-radius: 8px;
   background-color: var(--acent-secondary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-btn i {
@@ -92,6 +102,17 @@
 
 .menu-btn {
   display: none;
+  font-size: 22px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.menu-btn i {
+  color: var(--icon);
+}
+
+.navbar-content.scrolled .menu-btn i {
+  color: var(--text);
 }
 
 
@@ -110,9 +131,11 @@
   height: 100vh;
   width: 250px;
   z-index: 4;
+  color: var(--text);
   background-color: var(--nav-foot);
   list-style: none;
 }
+
 
 .sidebar li {
   width: 100%;
@@ -121,7 +144,29 @@
 
 .sidebar a {
   width: 100%;
+  color: black;
 }
+
+.sidebar.scrolled li a {
+  color: var(--text);
+}
+
+.sidebar.scrolled a:hover {
+  color: var(--acent-hover);
+}
+
+.sidebar.scrolled a.active {
+  color: var(--acent-hover);
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem; /* adjust size */
+}
+
+
 
 
 
@@ -130,7 +175,7 @@
 
 /* responsive navagation */
 @media (max-width: 768px) {
-  /* the navbar on phone */
+
   .hideOnMobile {
     display: none;
   }
@@ -139,32 +184,21 @@
     display: block;
   }
 
-  .logo {
-    width: 20%;
-  }
-
-  .logo img {
-    width: 100%;
-  }
-
-  .nav-btn {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .nav-actions {
+    gap: 6px;
   }
 
   .nav-btn a {
+    font-size: 14px;
     padding: 6px 12px;
-    font-size: 12px;
   }
 
   .nav-btn i {
-    font-size: 10px;
+    font-size: 14px;
   }
 
-  .menu-btn {
-    font-size: 18px;
-
-
+  .nav-links ul:not(.sidebar) {
+    flex-wrap: wrap;
+    gap: 15px;
   }
 }

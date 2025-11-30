@@ -11,7 +11,7 @@ fetch("../public/data/properties.json")
 // navbar scrolled
 window.addEventListener("scroll", function () {
   const navbar = document.querySelector(".navbar-content");
-  if (window.scrollY > 50) { // scroll amount to trigger
+  if (window.scrollY > 50) {
     navbar.classList.add("scrolled");
   } else {
     navbar.classList.remove("scrolled");

@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/components/nav.css">
     <link rel="stylesheet" href="/styles/scroller.css">
+    <link rel="stylesheet" href="/styles/components/feature-card.css">
     <link rel="stylesheet" href="/styles/components/card.css">
+    <link rel="stylesheet" href="/styles/components/card-category.css">
     <link rel="stylesheet" href="/styles/components/card-top.css">
     <link rel="stylesheet" href="styles/components/agent-card.css">
     <link rel="stylesheet" href="/styles/components/card-items.css">
@@ -25,7 +27,7 @@
     <link href="https://unpkg.com/slim-select@latest/dist/slimselect.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="dark-mode">
     <!-- ===== NAV ===== -->
     <header class="navbar-content">
         <nav class="navbar">
@@ -35,7 +37,11 @@
 
             <div class="nav-links">
                 <ul class="sidebar">
-                    <li><a onclick="hideSidebar()" href=""><i class="fa-solid fa-xmark"></i></a></li>
+                    <li><button class="close-btn" onclick="hideSidebar()">
+                          <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </li>
+                    
                     <li><a class="active" href="">Home</a></li>
                     <li><a href="">Rent</a></li>
                     <li><a href="">Buy</a></li>
@@ -51,25 +57,32 @@
                     <li><a class="hideOnMobile" href="">Agents</a></li>
                     <li><a class="hideOnMobile" href="">About</a></li>
                     <li><a class="hideOnMobile" href="">Contact</a></li>
-                    <li><a class="hideOnMobile menu-btn" onclick="showSidemenu()" href="javascript:void(0)"><i class="fas fa-bars"></i></a></li>
                 </ul>
             </div>
 
-            <div class="nav-btn dropdown">
-                <a href=""><i class="fas fa-moon"></i> Dark</a>
-                
+             <div class="nav-actions">
+                <div class="nav-btn">
+                    <a href="#"><i class="fas fa-moon"></i> Dark</a>
+                </div>
+
+                <a class="menu-btn" onclick="showSidemenu()" href="javascript:void(0)">
+                    <i class="fas fa-bars"></i>
+                </a>
             </div>
 
             <script>
-                function showSidemenu(){
-                    const sidebar = document.querySelector('.sidebar')
-                    sidebar.style.display = 'flex'
+                // show sidebar
+                function showSidemenu() {
+                    const sidebar = document.querySelector('.sidebar');
+                    sidebar.style.display = 'flex';
                 }
 
-                function hideSidebar(){
-                    const hideSidebar = document.querySelector('.sidebar')
-                    sidebar.style.display = 'none'
+                // hide sidebar
+                function hideSidebar() {
+                    const sidebar = document.querySelector('.sidebar'); // use same variable
+                    sidebar.style.display = 'none'; // hide sidebar
                 }
+
             </script>
         </nav>
     </header>
@@ -116,46 +129,12 @@
             <div class="scroller__track">
                 <!-- Group A -->
                 <div class="scroller__group">
-                    <a class="card" href="/property/1">
-                        <img class="card__media" src="https://picsum.photos/640/400?1"
-                            alt="Modern apartment near AEON Mall" />
-                        <div class="card__body">
-                            <small>
-                                <i class="fa-solid fa-bed"></i> 2 Bedroom
-                                <i class="fa-solid fa-bath"></i> 2 Bathroom
-                            </small>
-                            <h3 class="card__title">Modern Apartment</h3>
-                            <span class="badge">Boeng Keng Kong 1</span>
-                            <div class="card__meta">USD 99,00</div>
-                        </div>
-                    </a>
+                    <!-- dynamic-card -->
+                    <div class="feature-card" id="featureCard">
 
-                    
-                    <a class="card" href="/property/2">
-                        <img class="card__media" src="https://picsum.photos/640/400?2"
-                            alt="Cozy student room near ITC" />
-                        <div class="card__body">
-                            <small>
-                                <i class="fa-solid fa-bed"></i> 1 Bedroom
-                                <i class="fa-solid fa-bath"></i> 2 Bathroom
-                            </small>
-                            <h3 class="card__title">Cozy Student Room</h3>
-                            <span class="badge">Toul Kork</span>
-                            <div class="card__meta">USD 149,00</div>
-                        </div>
-                    </a>
-                    <a class="card" href="/property/3">
-                        <img class="card__media" src="https://picsum.photos/640/400?3" alt="Family house in Sen Sok" />
-                        <div class="card__body">
-                            <small>
-                                <i class="fa-solid fa-bed"></i> 3 Bedroom
-                                <i class="fa-solid fa-bath"></i> 3 Bathroom
-                            </small>
-                            <h3 class="card__title">Family House</h3>
-                            <span class="badge">Sen Sok</span>
-                            <div class="card__meta">USD 199,00</div>
-                        </div>
-                    </a>
+                    </div>
+
+                    <script src="scripts/card-feature.js"></script>
                 </div>
             </div>
         </div>
@@ -165,34 +144,32 @@
     <section class="section container">
         <div class="section__head">
             <h2 class="section__title">Property Categories</h2>
-
-            <!-- <a class="section__link" href="#">Show More</a> -->
         </div>
-
+        
         <div class="card-grid-groups" aria-label="Property categories">
-            <article class="card-top">
+            <a class="card-category" href="">
                 <img class="card-top__media" src="public/assets/images/condo.jpeg" alt="Condo" />
                 <div class="card-top__body">
                     <h3 class="card-top__title">Condo</h3>
                     <div class="card-top__meta">Fancy lifestyle.</div>
                 </div>
-            </article>
+            </a>
 
-            <article class="card-top">
+            <a class="card-category" href="">
                 <img class="card-top__media" src="public/assets/images/apartment.jpeg" alt="Apartments" />
                 <div class="card-top__body">
                     <h3 class="card-top__title">Apartments</h3>
                     <div class="card-top__meta">City living</div>
                 </div>
-            </article>
+            </a>
 
-            <article class="card-top">
+            <a class="card-category" href="">
                 <img class="card-top__media" src="public/assets/images/house.png" alt="Houses" />
                 <div class="card-top__body">
                     <h3 class="card-top__title">Houses</h3>
                     <div class="card-top__meta">Family homes</div>
                 </div>
-            </article>
+            </a>
         </div>
     </section>
 
@@ -210,7 +187,7 @@
                 <div class="card-top-content">
                     <span class="material-symbols-outlined">currency_exchange</span>
                     <h1>Affordable Price</h1>
-                    <p>This option comes at a very affordable price, making it accessible without compromising quality. It’s a budget‑friendly choice.</p>
+                    <p>This option comes at a very affordable price, making it accessible without compromising quality. It’s a budget‑friendly.</p>
                 </div>
             </article>
 
@@ -246,85 +223,15 @@
             <h2 class="section__title">Latest Properties</h2>
         </div>
 
-        <div class="card-grid-groups" aria-label="Latest properties">
-            <article class="card-items">
-                <div class="card-items_media">
-                    <img src="https://picsum.photos/640/400?7" alt="">
-                </div>
+        <!-- dynamic-card -->
+        <div class="card-grid-groups" id="itemsCard" aria-label="Latest properties">
 
-                <div class="card-items__body">
-                    <div class="top-cols-item">
-                        <h2>USD 150,000 <span>/ year</span></h2>
-                        <small><i class="fa-solid fa-star"></i> 4.9/5.0</small>
-                    </div>
-
-                    <h1 class="title-cols">Premium Family House</h1>
-                    <p class="txt-cols">Beoung Keng Kong 1</p>
-                    <small>
-                        <i class="fa-solid fa-bed"></i> 2 Bedroom
-                        <i class="fa-solid fa-bath"></i> 2 Bathroom
-                    </small>
-
-                    <div class="card-btn">
-                        <a href="">View Detail</a>
-                    </div>
-                </div>
-            </article>
-
-            
-
-            <article class="card-items">
-                <div class="card-items_media">
-                    <img src="https://picsum.photos/640/400?7" alt="">
-                </div>
-
-                <div class="card-items__body">
-                    <div class="top-cols-item">
-                        <h2>USD 150,000 <span>/ year</span></h2>
-                        <small><i class="fa-solid fa-star"></i> 4.9/5.0</small>
-                    </div>
-
-                    <h1 class="title-cols">Premium Family House</h1>
-                    <p class="txt-cols">Beoung Keng Kong 1</p>
-                    <small>
-                        <i class="fa-solid fa-bed"></i> 2 Bedroom
-                        <i class="fa-solid fa-bath"></i> 2 Bathroom
-                    </small>
-
-                    <div class="card-btn">
-                        <a href="">View Detail</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card-items">
-                <div class="card-items_media">
-                    <img src="https://picsum.photos/640/400?7" alt="">
-                </div>
-
-                <div class="card-items__body">
-                    <div class="top-cols-item">
-                        <h2>USD 150,000 <span>/ year</span></h2>
-                        <small><i class="fa-solid fa-star"></i> 4.9/5.0</small>
-                    </div>
-
-                    <h1 class="title-cols">Premium Family House</h1>
-                    <p class="txt-cols">Beoung Keng Kong 1</p>
-                    <small>
-                        <i class="fa-solid fa-bed"></i> 2 Bedroom
-                        <i class="fa-solid fa-bath"></i> 2 Bathroom
-                    </small>
-
-                    <div class="card-btn">
-                        <a href="">View Detail</a>
-                    </div>
-                </div>
-            </article>
         </div>
 
         <div class="section__head">
             <a class="section__link" href="#">Show More</a>
         </div>
+        <script src="scripts/card-items.js"></script>
     </section>
 
     <!-- ===== Meet Our Agents (Top 3) ===== -->
@@ -335,54 +242,11 @@
              quality. It’s a budget‑friendly choice that delivers great value for the cost.</p>
         </div>
         
-        <div class="section__agents">
-            <a class="agent-card" href="">
-                <div class="agent-card-content">
-                    <div class="img-cols">
-                        <img src="/public/assets/images/agent.jpg" alt="">
-                    </div>
-
-                    <h1>Ou Domveasna</h1>
-                    <span>Toul Kok Agent</span>
-                    <p>This option comes at a very affordable price, making it accessible without compromising quality. It’s a budget‑friendly choice.</p>
-                </div>
-            </a>
-
-            <a class="agent-card" href="">
-                <div class="agent-card-content">
-                    <div class="img-cols">
-                        <img src="https://i.pravatar.cc/100?img=12" alt="">
-                    </div>
-
-                    <h1>Ou Domveasna</h1>
-                    <span>Toul Kok Agent</span>
-                    <p>This option comes at a very affordable price, making it accessible without compromising quality. It’s a budget‑friendly choice.</p>
-                </div>
-            </a>
-
-            <a class="agent-card" href="">
-                <div class="agent-card-content">
-                    <div class="img-cols">
-                        <img src="https://i.pravatar.cc/100?img=12" alt="">
-                    </div>
-
-                    <h1>Ou Domveasna</h1>
-                    <span>Toul Kok Agent</span>
-                    <p>This option comes at a very affordable price, making it accessible without compromising quality. It’s a budget‑friendly choice.</p>
-                </div>
-            </a>
-
-            <a class="agent-card" href="">
-                <div class="agent-card-content">
-                    <div class="img-cols">
-                        <img src="https://i.pravatar.cc/100?img=12" alt="">
-                    </div>
-
-                    <h1>Ou Domveasna</h1>
-                    <span>Toul Kok Agent</span>
-                    <p>This option comes at a very affordable price, making it accessible without compromising quality. It’s a budget‑friendly choice.</p>
-                </div>
-            </a>
+        <!-- dynamic-card -->
+        <div class="section__agents" id="agentCard">
+        </div>
+            
+        <script src="scripts/agent-card.js"></script>
         </div> 
 
         <div class="section__head">
@@ -390,7 +254,7 @@
         </div>
     </section>
 
-        <!-- ===== Social + Subscribe ===== -->
+        <!-- ===== Inquiry Form ===== -->
     <section class="section container">
         <div class="container subscribe">
             <h2 class="section__title" style="margin:0">Let’s us help</h2>
@@ -400,6 +264,7 @@
                 <label for="">Type</label>
 
                 <select class="subscribe__select" aria-label="Type" id="selectType">
+                    <option value="">select</option>
                     <option>Room</option>
                     <option>Apartment</option>
                     <option>House</option>
@@ -425,6 +290,7 @@
                 <label for="">Location</label>
 
                 <select class="subscribe__select" aria-label="Type" id="selectType">
+                    <option value="">select</option>
                     <option>Phnom Pen</option>
                     <option>Apartment</option>
                     <option>House</option>
@@ -437,48 +303,25 @@
         </div>
     </section>
 
-    <!-- ===== Testimonials (Horizontal) ===== -->
-    <section class="section container">
-        <div class="section__head">
-            <h2 class="section__title">Testimonials</h2>
-        </div>
-        <div class="scroller">
-            <div class="scroller__track">
-                <div class="scroller__group" id="testimonials" aria-label="Testimonials">
-                    <blockquote class="quote card">
-                        <p>“Found a clean room near campus in 2 days. Love the Khmer support.”</p>
-                        <div class="quote__name">— Sopheak, Student</div>
-                    </blockquote>
-                    <blockquote class="quote card">
-                        <p>“Great agents and fair prices. Easy on mobile.”</p>
-                        <div class="quote__name">— Rina, Receptionist</div>
-                    </blockquote>
-                    <blockquote class="quote card">
-                        <p>“Transparent listings and quick replies.”</p>
-                        <div class="quote__name">— Vuthy, Technician</div>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- ===== Subscription Card ===== -->
     <section class="section container">
         <div class="subscription-card">
-            <div class="sub-card-content">
+            <div class="sub-card-bg">
                 <img src="/public/assets/images/sub-img.jpeg" alt="">
+            </div>
 
-                
-                <div class="subscribe">
-                    <h1>Stay in touch with us!</h1>
-                    
-                    <div class="subscribtion-infor">
-                        <input class="fill-in" type="email" placeholder="Fill in your email">
-                        <input class="submit" type="submit">
-                    </div>
+            <div class="sub-card-content">
+                <h1>Stay in touch with us!</h1>
+                <p>Get the latest news, updates, and exclusive offers straight to your inbox.</p>
+
+                <div class="subscription-inputs">
+                    <input type="email" placeholder="Enter your email" class="fill-in">
+                    <button class="submit">Subscribe</button>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- ===== FOOTER ===== -->
     <footer class="footer">
@@ -508,24 +351,6 @@
         <div class="copyright">
             <small>© 2025 Apple KH Real Estate. All Rights Reserved.</small>
         </div>
-
-        <!-- <div class="footer__grid container">
-            <div class="footer-infor">
-                <div class="footer-logo"><a href=""><img src="/public/assets/images/logo.png" alt=""></a></div>
-                    <p></p><br />
-                    <p class="footer-txt-cols">sd</p>
-                    <small class="footer__small">CONTACT</small>
-                    
-            </div>
-
-            <nav aria-label="Footer">
-                <div class="footer__small"><a href="#">Rent</a> • <a href="#">Buy</a> • <a href="#">Agents</a> • <a
-                        href="#">Contact</a></div>
-            </nav>
-        </div>
-        <div class="container" style="margin-top:10px">
-            <small class="footer__small">© 2025 KH Realty</small>
-        </div> -->
     </footer>
 
     <script>
@@ -549,7 +374,7 @@
     </script>
 
     <script src="/scripts/scroller.js"></script>
-    <script src="/scripts/index.js"></script>
+    <!-- <script src="/scripts/index.js"></script> -->
 </body>
 
 </html>
