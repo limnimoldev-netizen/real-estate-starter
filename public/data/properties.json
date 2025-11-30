@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": {
-      "en": "Modern Apartment near AEON Mall",
+      "en": "Modern Apartment",
       "km": "អាផាតមិនទំនើបនៅជិត AEON Mall"
     },
     "type": "apartment",
@@ -30,7 +30,7 @@
   {
     "id": 2,
     "title": {
-      "en": "Studio Apartment in BKK1",
+      "en": "Studio Apartment",
       "km": "អាផាតមិនបន្ទប់តូចនៅ BKK1"
     },
     "type": "apartment",
@@ -57,7 +57,7 @@
   {
     "id": 3,
     "title": {
-      "en": "Spacious Condo in Toul Kork",
+      "en": "Spacious Condo",
       "km": "ខុនដូទូលំទូលាយនៅតួលគោក"
     },
     "type": "condo",
@@ -84,7 +84,7 @@
   {
     "id": 4,
     "title": {
-      "en": "Luxury Villa in Chip Mong Landmark",
+      "en": "Luxury Villa Landmark",
       "km": "វីឡាធូល៌នៅ Chip Mong Landmark"
     },
     "type": "villa",
@@ -111,7 +111,7 @@
   {
     "id": 5,
     "title": {
-      "en": "Townhouse for Rent in Sen Sok",
+      "en": "Townhouse for Rent",
       "km": "ផ្ទះល្វែងឲ្យជួលនៅសែនសុខ"
     },
     "type": "house",
@@ -138,7 +138,7 @@
   {
     "id": 6,
     "title": {
-      "en": "Budget Apartment in Chbar Ampov",
+      "en": "Budget Apartment",
       "km": "អាផាតមិនតម្លៃសមរម្យនៅច្បារអំពៅ"
     },
     "type": "apartment",
@@ -165,7 +165,7 @@
   {
     "id": 7,
     "title": {
-      "en": "Office Space in Daun Penh",
+      "en": "Office Space",
       "km": "កន្លែងការិយាល័យនៅដូនពេញ"
     },
     "type": "commercial",
@@ -194,7 +194,7 @@
   {
     "id": 8,
     "title": {
-      "en": "Shophouse in Toul Tom Poung",
+      "en": "Shophouse",
       "km": "ផ្ទះអាជីវកម្មនៅទួលទំពូង"
     },
     "type": "shophouse",
@@ -220,7 +220,7 @@
   },
   {
     "id": 9,
-    "title": { "en": "Condo with Pool View", "km": "ខុនដូឃើញទឹកស៊ូវិមិញ" },
+    "title": { "en": "Condo with Pool", "km": "ខុនដូឃើញទឹកស៊ូវិមិញ" },
     "type": "condo",
     "purpose": "rent",
     "price": 600,
@@ -245,7 +245,7 @@
   {
     "id": 10,
     "title": {
-      "en": "Serviced Apartment in Russian Market",
+      "en": "Serviced Apartment",
       "km": "អាផាតមិនសេវាកម្មនៅផ្សារអឺរ៉ុប"
     },
     "type": "apartment",
@@ -271,7 +271,7 @@
   },
   {
     "id": 11,
-    "title": { "en": "Land for Sale in Kandal", "km": "ដីលក់នៅខណ្ឌកណ្តាល" },
+    "title": { "en": "Land for Sale", "km": "ដីលក់នៅខណ្ឌកណ្តាល" },
     "type": "land",
     "purpose": "sale",
     "price": 75000,
@@ -296,7 +296,7 @@
   {
     "id": 12,
     "title": {
-      "en": "Affordable Condo in Chroy Changvar",
+      "en": "Affordable Condo",
       "km": "ខុនដូតម្លៃសមរម្យនៅជ្រោយចង្វារ"
     },
     "type": "condo",
@@ -323,7 +323,7 @@
   {
     "id": 13,
     "title": {
-      "en": "Villa in Borey Peng Huoth",
+      "en": "Villa in Borey",
       "km": "វីឡាក្នុងបុរី ប៉េងហួត"
     },
     "type": "villa",
@@ -349,7 +349,7 @@
   },
   {
     "id": 14,
-    "title": { "en": "Penthouse in BKK1", "km": "ផេនថោសអាផាតមិននៅ BKK1" },
+    "title": { "en": "Penthouse", "km": "ផេនថោសអាផាតមិននៅ BKK1" },
     "type": "condo",
     "purpose": "sale",
     "price": 220000,
@@ -374,7 +374,7 @@
   {
     "id": 15,
     "title": {
-      "en": "Apartment near Eden Garden",
+      "en": "Apartment near Eden",
       "km": "អាផាតមិនជិត Eden Garden"
     },
     "type": "apartment",
@@ -401,7 +401,7 @@
   {
     "id": 16,
     "title": {
-      "en": "Spacious House near ISPP",
+      "en": "Spacious House",
       "km": "ផ្ទះធំទូលាយនៅជិត ISPP"
     },
     "type": "house",
@@ -428,7 +428,7 @@
   {
     "id": 17,
     "title": {
-      "en": "Studio Apartment near CIA School",
+      "en": "Studio Apartment",
       "km": "អាផាតមិនបន្ទប់តូចនៅជិតសាលា CIA"
     },
     "type": "apartment",
@@ -455,7 +455,7 @@
   {
     "id": 18,
     "title": {
-      "en": "Elegant Condo in Diamond Island",
+      "en": "Elegant Condo",
       "km": "ខុនដូស្រស់ស្អាតនៅកោះពេជ្រ"
     },
     "type": "condo",
@@ -481,7 +481,7 @@
   },
   {
     "id": 19,
-    "title": { "en": "Shop Space for Rent", "km": "ទីតាំងអាជីវកម្មឲ្យជួល" },
+    "title": { "en": "ShopSpace for Rent", "km": "ទីតាំងអាជីវកម្មឲ្យជួល" },
     "type": "commercial",
     "purpose": "rent",
     "price": 1500,
@@ -506,7 +506,7 @@
   {
     "id": 20,
     "title": {
-      "en": "Family House in Chroy Changvar",
+      "en": "Family House",
       "km": "ផ្ទះគ្រួសារនៅជ្រោយចង្វារ"
     },
     "type": "house",
@@ -532,7 +532,7 @@
   },
   {
     "id": 21,
-    "title": { "en": "Land for Sale in Siem Reap", "km": "ដីលក់នៅសៀមរាប" },
+    "title": { "en": "Land for Sale SR", "km": "ដីលក់នៅសៀមរាប" },
     "type": "land",
     "purpose": "sale",
     "price": 50000,

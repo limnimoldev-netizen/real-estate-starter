@@ -1,12 +1,22 @@
-.card {
+.scroller__track {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+  will-change: transform;
+  animation: marquee var(--marquee-duration, 5s) linear infinite;
+}
+
+.feature-card {
   display: block; /* since they're <a> now */
   text-decoration: none;
   color: inherit;
   cursor: pointer;
 }
 
-.card {
+.feature-card {
+  display: flex;
   flex: 0 0 23em;
+  gap: 10px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);

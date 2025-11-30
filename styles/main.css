@@ -10,6 +10,8 @@
 
   --text-secondary: #FAB21E;
 
+  --text-highlight: #1d1716;
+
   --icon: #ffffff;
 
   --muted: #817b6edb;
@@ -17,6 +19,8 @@
   --acent: #1d1716;
 
   --acent-secondary: #F0E8E8;
+
+  /* accent highlight */
 
   --acent-hover: #FAB21E;
 
@@ -44,6 +48,27 @@
 
   --font-secondary: "Public Sans", san-serif;
 }
+
+
+.dark-mode {
+  --bg: #1A1414;              /* Deep warm black */
+  --nav-foot: #231B1B;        /* Slightly lighter for header/footer */
+  
+  --text: #F5EAEA;            /* Soft light pinkish white */
+  --text-highlight: #1d1716;
+  --text-secondary: #FFC75E;  /* Warm highlight (keeps your style) */
+
+  --icon: #FFFFFF;            /* Pure white icons */
+  --muted: #A88F8F;           /* Muted text with warm undertone */
+
+  --acent: #FFDEDE;           /* Light accent for buttons/text */
+  --acent-secondary: #2D2424; /* Dark card/button background */
+  --acent-hover: #FAB21E;     /* Bright hover highlight (same as yours) */
+
+  --border: #3A2E2E;          /* Very subtle border */
+}
+
+
 
 * {
   box-sizing: border-box;
@@ -80,11 +105,13 @@ img {
   width: 100%;
   height: 100vh; 
   position: relative;
+  margin-bottom: 30px;
 }
 
 .hero img {
   width: 100%;
   height: 100%;
+  border-radius: 12px;
   object-fit: cover;
   filter: brightness(80%);
 }
@@ -295,7 +322,6 @@ img {
 }
 
 .subscribe__select {
-  appearance: none;
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 12px;
@@ -321,6 +347,8 @@ img {
   border: none;
   background-color: var(--acent-hover);
 }
+
+
 
 
 
