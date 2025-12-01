@@ -7,7 +7,7 @@ fetch("../../public/data/properties.json")
     if (data.length > 0) {
         for (let i = 12; i < 24 ; i++) {
             console.log(data);
-            
+            // if (data[i].id === id)
             sectionSaleElement.innerHTML += `
             <article class="card-items" href="">
                 <div class="card-items_media">
@@ -28,7 +28,7 @@ fetch("../../public/data/properties.json")
                     </small>
 
                     <div class="card-btn">
-                        <a href="">View Detail</a>
+                        <a href="/pages/detail/id=${data[i].id}">View Detail</a>
                     </div>
                 </div>
             </article>
