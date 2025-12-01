@@ -1,0 +1,54 @@
+.agent-cols {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    
+    gap: 25px;
+    /* display: grid; */
+
+
+}
+.contact-cols{
+    display: block;
+    color: #817b6edb;
+    /* gap: 0px; */
+}
+
+
+
+
+
+
+
+
+/* responsive navagation */
+@media (max-width: 768px) {
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-actions {
+    gap: 6px;
+  }
+
+  .nav-btn a {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .nav-btn i {
+    font-size: 14px;
+  }
+
+  .nav-links ul:not(.sidebar) {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Agent detail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Affordable rentals and homes in Cambodia." />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/components/nav-second.css">
+    <link rel="icon" type="image/x-icon" href="../../public/assets/images/company/favicon.ico">
+    <link rel="stylesheet" href="../../https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+
+    <script src="../../https://unpkg.com/slim-select@latest/dist/slimselect.js"></script>
+    <link href="../../https://unpkg.com/slim-select@latest/dist/slimselect.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar-content">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/index.html#heroSection"><img src="../../public/assets/images/logo.png" alt=""></a>
+            </div>
+
+            <div class="nav-links">
+                <ul class="sidebar">
+                    <li><button class="close-btn" onclick="hideSidebar()">
+                          <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </li>
+                    
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../rent/index.html">Rent</a></li>
+                    <li><a href="../buy/index.html">Buy</a></li>
+                    <li><a href="../agents/index.html">Agents</a></li>
+                    <li><a class="active" href="">About</a></li>
+                    <li><a href="../contact/index.html">Contact</a></li>
+                </ul>
+
+                <ul>
+                    <li><a class="hideOnMobile" href="../../index.html">Home</a></li>
+                    <li><a class="hideOnMobile" href="../rent/index.html">Rent</a></li>
+                    <li><a class="hideOnMobile" href="../buy/index.html">Buy</a></li>
+                    <li><a class="hideOnMobile" href="../agents/index.html">Agents</a></li>
+                    <li><a class="hideOnMobile active" href="">About</a></li>
+                    <li><a class="hideOnMobile" href="../contact/index.html">Contact</a></li>
+                </ul>
+            </div>
+
+             <div class="nav-actions">
+                <div class="nav-btn" onclick="toggleTheme(); return false;">
+                    <a href="#"><i class="fas fa-moon"></i> Dark</a>
+                </div>
+
+                <a class="menu-btn" onclick="showSidemenu()" href="javascript:void(0)">
+                    <i class="fas fa-bars"></i>
+                </a>
+
+                <script src="../../scripts/index.js"></script>
+            </div>
+
+            <script>
+                // show sidebar
+                function showSidemenu() {
+                    const sidebar = document.querySelector('.sidebar');
+                    sidebar.style.display = 'flex';
+                }
+
+                // hide sidebar
+                function hideSidebar() {
+                    const sidebar = document.querySelector('.sidebar'); // use same variable
+                    sidebar.style.display = 'none'; // hide sidebar
+                }
+
+            </script>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="agent-cols">
+            <div class="img">
+                <img src="/public/assets/images/agent  pf.png" alt="">
+            </div>
+            <div class="agent-pf">
+                <h1>Aiko Yuri</h1>
+                <h3>Toul Kok Agent</h3>
+                <div class="contact-cols">
+                     <span><i class="fa-solid fa-phone"></i> 012 345 678</span>
+                    <span><i class="fas fa-envelope"></i> example@gmail.com</span>
+                </div>
+                   
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="feature-personal">
+            <div class="feature">
+                <h1>Features Offers</h1>
+                <span>Condo Specialist</span>
+            </div>
+            <div class="personal">
+                <h1> Personal Profile</h1>
+                <span>Condo I feel that having the right real estate agent means <br>
+                    having an agent who is committed to helping you buy or sell <br>
+                    your home with the highest level of expertise in your local <br>
+                    market. This means also to help you in understanding each <br>
+                    step of the buying or selling process. Feel free to browse <br>
+                    through my profile and please don't hesitate to reach out for <br>
+                     any of your real estate needs.</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
